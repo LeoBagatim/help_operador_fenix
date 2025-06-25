@@ -1,0 +1,68 @@
+.tool-btn {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  background-color: #0b74c9;
+  color: white;
+  border: none;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.tool-btn:hover {
+  background-color: #095ca4;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 10px;
+  width: 250px;
+}
+
+input, select, button {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #f76c1d;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d95c16;
+}
+
+#resultado {
+  margin-top: 10px;
+  font-size: 14px;
+  color: green;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+}
+
+.topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.topo h2 {
+  font-size: 16px;
+  margin: 0;
+}

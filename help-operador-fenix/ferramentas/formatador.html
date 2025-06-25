@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Help Fenix</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+ <div class="topo">
+  <h2>Formatar Evento</h2>
+  <img src="/icon.png" alt="Logo Fenix" class="logo" />
+</div>
+  <form id="formulario">
+    <select id="tipo">
+  <option value="(M)">(M)</option>
+  <option value="(E)">(E)</option>
+</select>
+    </select>
+    <input type="text" id="vendedor" placeholder="Nome do vendedor" required />
+    <input type="text" id="pedido" placeholder="Número do pedido" required />
+    <input type="text" id="arquivo" placeholder="Nome do arquivo" required />
+    <input type="text" id="metragem" placeholder="Metragem (somente número)" required />
+    <button type="submit">Copiar</button>
+  </form>
+  <p id="resultado"></p>
+  <script src="formatador.js"></script>
+  <button id="btn-voltar">⬅ Voltar</button>
+</body>
+</html>
