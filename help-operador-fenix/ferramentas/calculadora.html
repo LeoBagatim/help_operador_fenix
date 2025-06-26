@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quando Podemos Entregar?</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <div class="topo">
+    <h2>Quando Podemos Entregar?</h2>
+    <img src="../icon.png" alt="Logo Fenix" class="logo" />
+  </div>
+
+  <form id="calc-form">
+    <label>Metragens (separadas por vírgula):</label>
+    <input type="text" id="metragens" placeholder="Ex: 15, 20, 30" required />
+
+    <label>Velocidade da máquina (m/h):</label>
+    <input type="number" id="velocidade" step="0.1" min="1" value="14" required />
+
+    <label>Número de limpezas:</label>
+    <input type="number" id="limpezas" min="0" max="5" value="2" />
+
+    <label><input type="checkbox" id="trocaBobina" /> Próximo a acabar a bobina?</label>
+
+    <button type="submit">Calcular</button>
+  </form>
+
+  <p id="resultado"></p>
+
+  <button id="btn-voltar">⬅ Voltar</button>
+
+  <script src="calculadora.js"></script>
+</body>
+</html>
